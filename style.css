@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.nav-item {
+  font-weight: bold;
+}
+
+.nav-item a {
+  color: white;
+}
+
+.navbar {
+  background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+
+.navbar .logo {
+  width: 50px;
+  background-color: white;
+  border-radius: 50px;
+  margin-right: 10px;
+}
+
+.navbar .logo-name {
+  font-weight: bold;
+  color: white;
+  margin-top: 10px;
+}
+
+#banner {
+  background-image: url(images/banner.jpg);
+  background-position: start; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+#banner .container-fluid {
+  margin: 0;
+  padding: 0;
+}
+
+#banner .setheight {
+  height: 700px;
+}
+
+#banner .title {
+  font-size: 40px;
+  font-weight: bold;
+  color: #a517ba;
+  text-decoration: underline;
+}
+
+#banner .title-h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #cc65ff;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+#banner .location {
+  background-image: linear-gradient(to right, #a517ba, #5f1782);
+  padding: 10px;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+#banner a {
+  outline: none;
+  border: none;
+  font-weight: bold;
+  padding: 15px;
+  border-radius: 30px;
+  background-color: #cc65ff;
+}
+
+#banner a:hover {
+  background-color: red;
+  color: black;
+}
+
+.bottom-img {
+  width: 100%;
+}
+
+#about button {
+  outline: none;
+  border: none;
+  font-weight: bold;
+  padding: 15px;
+  border-radius: 30px;
+  background-color: #cc65ff;
+}
+
+#about .title {
+  font-weight: bold;
+  text-decoration: underline;
+
+  color: #5f1782;
+}
+
+#about h3 {
+  color: #5f1782;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+#about p {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+#about span {
+  color: #990b4d;
+}
+
+#vip .old-price {
+  text-decoration: line-through;
+  color: red;
+}
+
+#vip p {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.card-header {
+  background-color: #5f1782;
+}
+
+.card-body {
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#vip .card-header h4 {
+  font-weight: bold;
+  color: white;
+}
+
+#vip .pricing-card-title {
+  font-weight: bold;
+}
+
+#vip button {
+  outline: none;
+  border: none;
+  font-weight: bold;
+
+  background-color: #cc65ff;
+}
+
+.top-title {
+  color: #5f1782;
+}
+
+#footer {
+  background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+
+#footer .footer-text-body {
+  text-decoration: none;
+  color: white;
+}
+
+#footer .icon {
+  font-size: 40px;
+}
+
+@media only screen and (min-width: 600px) {
+  #about {
+    padding-top: 100px;
+  }
+  #vip {
+    padding-top: 100px;
+  }
+  #gallery {
+    padding-top: 100px;
+  }
+}
